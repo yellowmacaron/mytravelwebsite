@@ -1,0 +1,42 @@
+.stories-title h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #8b0000;
+  text-align: center;
+}
+blockquote {
+  color: #808080;
+  font-style: italic;
+  text-align: center;
+  margin: 1rem;
+}
+.travel-part {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.img-travel {
+  height: 10rem;
+  object-fit: cover;
+}
+.travel-card {
+  background: lightblue;
+  flex: 0 0 calc(20% - 1rem);
+  margin: 1rem;
+  border: 2px solid lightgrey;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  transition: all 0.2s linear;
+}
+.travel-card:hover {
+    transform: scale(1.02);
+}
+.card-info {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.card-info h4 {
+    color:white;
+}
+}
