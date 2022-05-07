@@ -1,3 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* nav bar */
+nav {
+  text-align: center;
+  background-color: lightblue;
+  padding: 1rem;
+  margin-bottom: 3rem;
+}
+nav a {
+  font-size: 1.2rem;
+  padding: 2rem 2rem;
+  
+  color: black;
+  text-decoration: none;
+}
+nav a:hover {
+  color: white;
+}
+/* cover */
+.cover {
+  text-align: center;
+  margin: 1rem;
+}
+.cover-img {
+  background-size: cover;
+  width: 550px;
+  height: 300px;
+}
+/* stories-main */
 .stories-title h3 {
   font-size: 2rem;
   font-weight: 700;
@@ -13,17 +45,17 @@ blockquote {
 }
 .travel-part {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-wrap: wrap;
-  align-items: center;
 }
 .img-travel {
   height: 10rem;
-  object-fit: cover;
+  box-sizing: border-box;
 }
 .travel-card {
   background: lightblue;
-  flex: 0 0 calc(20% - 1rem);
+  max-width: 300px;
+  flex: 0 0 calc (33.333% - 1rem);
   margin: 1rem;
   border: 2px solid lightgrey;
   box-shadow: 0 5px 15px rgba(0,0,0,0.2);
@@ -39,4 +71,60 @@ blockquote {
 .card-info h4 {
     color:white;
 }
+}
+
+/* form */
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type="submit"]:hover{
+  background-color: lightgreen;
+}
+.container {
+  background-color: lightcyan;
+  width: 50%;
+  padding: 1rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+/* footer */
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 1rem;
 }
